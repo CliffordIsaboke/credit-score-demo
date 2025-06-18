@@ -54,6 +54,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 Running the Project
+
 A. To parse an M-Pesa PDF statement:
 python parse_mpesa.py
 This will extract transactions and output a cleaned CSV file: mpesa_dataset.csv.
