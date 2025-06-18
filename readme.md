@@ -71,22 +71,22 @@ D. To launch the dashboard:
 python credit_dashboard.py
 
 ### Key Features
-Real-world simulation of M-Pesa behavior
+- Real-world simulation of M-Pesa behavior
 
-Explainable AI (XAI) via SHAP plots
+- Explainable AI (XAI) via SHAP plots
 
-Ethical scoring through repayment patterns, not only income
+- Ethical scoring through repayment patterns, not only income
 
-Custom credit algorithm built using domain-informed heuristics
+- Custom credit algorithm built using domain-informed heuristics
 
-Simple GUI for real-time credit score display
+- Simple GUI for real-time credit score display
 
-✅ Sample Output
-Model Accuracy: 92% (XGBoost)
+### Sample Output
+- Model Accuracy: 92% (XGBoost)
 
-SHAP Factors: Repayments, inflow volume, transaction count
+- SHAP Factors: Repayments, inflow volume, transaction count
 
-Dashboard Output: Score + Eligibility tag
+- Dashboard Output: Score + Eligibility tag
 
 📄 License
 This project is licensed under the MIT License.
