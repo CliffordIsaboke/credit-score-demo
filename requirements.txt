@@ -1,0 +1,7 @@
+REQUIREMENTS
+-pandas
+-pdfplumber
+-scikit-learn
+-joblib 
+-shap 
+-tkinter
