@@ -44,10 +44,12 @@ This repository includes a synthetic M-Pesa dataset (`mpesa_synthetic_dataset.cs
 ### 1. Clone the repository
 
 git clone https://github.com/cliffordisaboke/mpesa-credit-score-demo
+
 cd mpesa-credit-score-demo
 
 ### 2. Set up a virtual environment
 python3 -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### 3. Install dependencies
