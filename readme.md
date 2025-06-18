@@ -78,7 +78,7 @@ This will generate a SHAP image: SHAP_Interpretation.png.
 - To launch the dashboard:
 python credit_dashboard.py
 
-### Key Features
+### 5. Key Features
 - Real-world simulation of M-Pesa behavior
 
 - Explainable AI (XAI) via SHAP plots
@@ -89,7 +89,7 @@ python credit_dashboard.py
 
 - Simple GUI for real-time credit score display
 
-### Sample Output
+### 6. Sample Output
 - Model Accuracy: 92% (XGBoost)
 
 - SHAP Factors: Repayments, inflow volume, transaction count
