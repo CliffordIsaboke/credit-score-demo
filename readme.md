@@ -46,14 +46,14 @@ This repository includes a synthetic M-Pesa dataset (`mpesa_synthetic_dataset.cs
 git clone https://github.com/cliffordisaboke/mpesa-credit-score-demo
 cd mpesa-credit-score-demo
 
-2. Set up a virtual environment
+### 2. Set up a virtual environment
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install dependencies
+### 3. Install dependencies
 pip install -r requirements.txt
 
-Running the Project
+### 4. Running the Project
 
 A. To parse an M-Pesa PDF statement:
 python parse_mpesa.py
@@ -70,7 +70,7 @@ This will generate a SHAP image: SHAP_Interpretation.png.
 D. To launch the dashboard:
 python credit_dashboard.py
 
-Key Features
+### Key Features
 Real-world simulation of M-Pesa behavior
 
 Explainable AI (XAI) via SHAP plots
