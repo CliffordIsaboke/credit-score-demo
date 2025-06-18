@@ -57,19 +57,24 @@ pip install -r requirements.txt
 
 ### 4. Running the Project
 
-A. To parse an M-Pesa PDF statement:
+- To parse an M-Pesa PDF statement:
 python parse_mpesa.py
+
 This will extract transactions and output a cleaned CSV file: mpesa_dataset.csv.
 
-B. To train a model using simulated behavioral features:
+- To train a model using simulated behavioral features:
+
 python train_model.py
+
 The trained model is saved as credit_model.joblib.
 
-C. To test explainability with SHAP:
+- To test explainability with SHAP:
+
 python shap_plot_demo.py
+
 This will generate a SHAP image: SHAP_Interpretation.png.
 
-D. To launch the dashboard:
+- To launch the dashboard:
 python credit_dashboard.py
 
 ### Key Features
