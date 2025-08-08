@@ -96,7 +96,7 @@ python credit_dashboard.py
 
 - Dashboard Output: Score + Eligibility tag
 
-📄 License
+## License
 This project is licensed under the MIT License.
 
 ---
