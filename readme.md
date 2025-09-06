@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ### 4. Running the Project
 
-### To parse an M-Pesa PDF statement:
+#### To parse an M-Pesa PDF statement:
 - python parse_mpesa.py: This will extract transactions and output a cleaned CSV file (mpesa_dataset.csv.)
 
 ### To train a model using simulated behavioral features:
