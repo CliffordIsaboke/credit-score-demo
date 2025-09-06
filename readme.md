@@ -59,41 +59,30 @@ pip install -r requirements.txt
 
 - To parse an M-Pesa PDF statement:
 
-python parse_mpesa.py
-
-This will extract transactions and output a cleaned CSV file (mpesa_dataset.csv.)
+python parse_mpesa.py: This will extract transactions and output a cleaned CSV file (mpesa_dataset.csv.)
 
 - To train a model using simulated behavioral features:
 
-python train_model.py
-
-The trained model is saved as credit_model.joblib.
+python train_model.py: The trained model is saved as credit_model.joblib.
 
 - To test explainability with SHAP:
 
-python shap_plot_demo.py
-
-This will generate a SHAP image: SHAP_Interpretation.png.
+python shap_plot_demo.py: This will generate a SHAP image: SHAP_Interpretation.png.
 
 - To launch the dashboard:
+
 python credit_dashboard.py
 
 ### 5. Key Features
 - Real-world simulation of M-Pesa behavior
-
 - Explainable AI (XAI) via SHAP plots
-
 - Ethical scoring through repayment patterns, not only income
-
 - Custom credit algorithm built using domain-informed heuristics
-
 - Simple GUI for real-time credit score display
 
 ### 6. Sample Output
 - Model Accuracy: 92% (XGBoost)
-
 - SHAP Factors: Repayments, inflow volume, transaction count
-
 - Dashboard Output: Score + Eligibility tag
 
 ## License
