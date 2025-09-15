@@ -1,4 +1,4 @@
-REQUIREMENTS
+REQUIREMENTS:
 -pandas
 -pdfplumber
 -scikit-learn
