@@ -23,7 +23,7 @@ def launch_dashboard():
             features = extract_features(df)
             score, eligible = score_credit(features)
 
-            result = f"Loan Score: {score*100:.1f}%\nEligible: {'✅ Yes' if eligible else '❌ No'}"
+            result = f"Loan Score: {score*100:.1f}%\nEligible: {' Yes' if eligible else ' No'}"
             root.after(0, lambda: update_result(result, eligible))
 
         except Exception as e:
