@@ -10,7 +10,7 @@ from routers import analysis, banking, system
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
-    print(f"🚀 Starting Loan Scoring API for {MAX_CONCURRENT_USERS} concurrent users...")
+    print(f"Starting Loan Scoring API for {MAX_CONCURRENT_USERS} concurrent users...")
     
     # Load ML model
     ml_service.load_model()
@@ -23,7 +23,7 @@ async def lifespan(app: FastAPI):
     yield
     
     # Shutdown
-    print("🔄 Shutting down application...")
+    print("Shutting down application...")
 
 # Create FastAPI app
 app = FastAPI(

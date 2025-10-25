@@ -83,9 +83,9 @@ class GuidePanel:
         score_key = (
             "Score Range  | Interpretation         | Eligibility\n"
             "-------------| ---------------------- | -----------\n"
-            " 0 -30%      | Low risk (good client) | ✅ Yes\n"
-            "30 -70%      | Moderate risk          | ✅ Yes\n"
-            "70 -100%     | High risk              | ❌ No"
+            " 0 -30%      | Low risk (good client) | Yes\n"
+            "30 -70%      | Moderate risk          | Yes\n"
+            "70 -100%     | High risk              | No"
         )
         
         # Text box for monospace font
