@@ -1,4 +1,4 @@
-# Loan Scoring System
+# Analysis System
 
 A comprehensive full-stack application for analyzing M-Pesa statements and calculating loan eligibility scores using machine learning.
 
@@ -39,18 +39,6 @@ The Loan Scoring System consists of:
 - **Connection Monitoring**: Live API status updates
 - **Responsive Design**: Adapts to different screen sizes
 
-## Architecture
-
-### System Architecture
-┌─────────────────┐    REST API    ┌──────────────────┐
-│   Frontend      │◄──────────────►│    Backend API   │
-│   GUI Client    │                │   FastAPI Server │
-└─────────────────┘                └─────────┬────────┘
-                                             │
-                                    ┌────────▼────────┐
-                                    │   MongoDB       │
-                                    │   Database      │
-                                    └─────────────────┘
 
 ### Backend Structure
 
@@ -128,7 +116,7 @@ RESULTS_COLLECTION=analysis_results
 CLIENTS_COLLECTION=clients
 
 # Optional: Cloud MongoDB
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/
+- MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/
 
 
 ### Frontend Configuration
