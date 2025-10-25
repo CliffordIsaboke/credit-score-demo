@@ -43,22 +43,22 @@ The Loan Scoring System consists of:
 ### Backend Structure
 
 loan_scoring_api/
-├── main.py                 # FastAPI app entry point
-├── config/                 # Configuration settings
-├── database/               # MongoDB models & connection
-├── services/               # Business logic services
-├── routers/                # API route handlers
-└── utils/                  # Utility functions
+- main.py                 # FastAPI app entry point
+- config/                 # Configuration settings
+- database/               # MongoDB models & connection
+- services/               # Business logic services
+- routers/                # API route handlers
+- utils/                  # Utility functions
 
 
 ### Frontend Structure
 
 loan_scoring_frontend/
-├── main.py                 # GUI application entry point
-├── config/                 # App settings and styling
-├── components/             # UI components
-├── services/               # API clients and file handling
-└── utils/                  # Helper functions
+- main.py                 # GUI application entry point
+- config/                 # App settings and styling
+- components/             # UI components
+- ervices/               # API clients and file handling
+- utils/                  # Helper functions
 
 
 ## Installation
