@@ -24,11 +24,11 @@ class MLService:
                 X_test = pd.DataFrame([dummy_features])[self.feature_columns]
                 self.model.predict_proba(X_test)
                 self.model_loaded = True
-                print("✅ Machine learning model loaded successfully")
+                print("Machine learning model loaded successfully")
             else:
                 self._create_fallback_model()
         except Exception as e:
-            print(f"❌ Could not load trained model: {e}")
+            print(f"Could not load trained model: {e}")
             self._create_fallback_model()
     
     def _create_fallback_model(self):
@@ -48,7 +48,7 @@ class MLService:
         self.model = RandomForestClassifier(n_estimators=10, random_state=42)
         self.model.fit(X_dummy, y_dummy)
         self.model_loaded = True
-        print("✅ Fallback dummy model created and trained")
+        print("Fallback dummy model created and trained")
     
     def predict(self, features):
         """Make prediction using loaded model"""
