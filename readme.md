@@ -1,5 +1,5 @@
 
-# Loan Analysis System
+# Analysis System
 
 A comprehensive **full-stack application** for analyzing M-Pesa statements and calculating **loan eligibility scores** using **AI/ML**.
 
