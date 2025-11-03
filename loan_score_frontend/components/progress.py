@@ -13,7 +13,7 @@ class ProgressManager:
     def create_progress_frame(self):
         """Create progress frame with fixed height"""
         self.progress_frame = ctk.CTkFrame(self.parent, height=60)
-        self.progress_frame.grid_propagate(False)  # Prevent frame from shrinking
+        self.progress_frame.grid_propagate(False)
         self.progress_frame.grid_columnconfigure(0, weight=1)
         
         # Progress bar
