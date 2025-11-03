@@ -13,13 +13,13 @@ class DatabaseManager:
                     MONGODB_URI,
                     maxPoolSize=200,
                     minPoolSize=50,
-                    # ... your connection options
+                    
                 )
                 self.client.admin.command('ping')
                 self.db_connected = True
                 print("✓ MongoDB connection pool established")
             except Exception as e:
-                print(f"❌ MongoDB connection failed: {e}")
+                print(f"MongoDB connection failed: {e}")
                 self.client = None
         return self.client
     
