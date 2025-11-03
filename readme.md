@@ -335,15 +335,15 @@ pyinstaller --onefile --windowed main.py
 
 **Backend**
 
-1. Add routes → `routers/`
-2. Implement logic → `services/`
-3. Update models → `database/models.py`
+1. Add routes -routers/`
+2. Implement logic -`services/`
+3. Update models -`database/models.py`
 
 **Frontend**
 
-1. Add components → `components/`
-2. Add API logic → `services/`
-3. Update config → `config/`
+1. Add components - `components/`
+2. Add API logic -`services/`
+3. Update config -`config/`
 
 ---
 
