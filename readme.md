@@ -272,9 +272,9 @@ curl -X POST -F "file=@statement.pdf" -F "loan_amount=50000" http://localhost:80
 
 | Score Range | Interpretation | Eligibility |
 | ----------- | -------------- | ----------- |
-| 0–30%       | Low risk       | ✅ Yes       |
-| 30–70%      | Moderate risk  | ✅ Yes       |
-| 70–100%     | High risk      | ❌ No        |
+| 0–30%       | Low risk       | Yes         |
+| 30–70%      | Moderate risk  | Yes         |
+| 70–100%     | High risk      | No          |
 
 ---
 
